@@ -3,8 +3,15 @@ FROM python:3.9
 COPY . /The-Movie-Cinema-master/.ipynb_checkpoints
 COPY ./The-Movie-Cinema-master/__pycache__
 COPY ./The-Movie-Cinema-master/datasets
-COPY ./The-Movie-Cinema-master/static
-COPY ./The-Movie-Cinema-master/template
+COPY ./The-Movie-Cinema-master/static/autocomplete
+COPY ./The-Movie-Cinema-master/static/default
+COPY ./The-Movie-Cinema-master/static/image
+COPY ./The-Movie-Cinema-master/static/loader
+COPY ./The-Movie-Cinema-master/static/movie_placeholder
+COPY ./The-Movie-Cinema-master/static/recommend
+COPY ./The-Movie-Cinema-master/static/style
+COPY ./The-Movie-Cinema-master/templates/home
+COPY ./The-Movie-Cinema-master/templates/recommend
 COPY ./The-Movie-Cinema-master/finaldata
 COPY ./The-Movie-Cinema-master/main
 COPY ./The-Movie-Cinema-master/main_data
