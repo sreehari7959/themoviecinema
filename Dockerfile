@@ -1,7 +1,7 @@
 FROM python:3.9
 
 COPY . /The-Movie-Cinema-master/.ipynb_checkpoints
-COPY ./The-Movie-Cinema-master/__pycache__
+COPY ./The-Movie-Cinema-master/__pycache__/main.cpython-39
 COPY ./The-Movie-Cinema-master/datasets
 COPY ./The-Movie-Cinema-master/static/autocomplete
 COPY ./The-Movie-Cinema-master/static/default
